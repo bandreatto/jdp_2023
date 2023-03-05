@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+pl:
+  sagesacademy:
+    example: jpd_2023
+    another: extra_jpd_2023
+
+

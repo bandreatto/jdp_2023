@@ -1,0 +1,19 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: test
+    password: password
+
+spring.h2.console:
+  path: /h2
+  enabled: true
+
+logging:
+  level:
+    org.springframework.orm.jpa: DEBUG
+    org.springframework.transaction: DEBUG
